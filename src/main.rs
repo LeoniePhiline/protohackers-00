@@ -2,7 +2,7 @@
 
 use std::{fmt::Debug, time::Duration};
 
-use color_eyre::eyre::{self, bail, Result, WrapErr};
+use color_eyre::eyre::{self, Result, WrapErr};
 use tokio::io::{AsyncRead, AsyncReadExt, AsyncWrite, AsyncWriteExt};
 use tracing::{debug, error, info, instrument};
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt, EnvFilter, Layer};

@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-color-eyre = "0.6.3"
-tokio = { version = "1.37.0", features = ["full"] }
+color-eyre = "0.6.4"
+tokio = { version = "1.45.1", features = ["full"] }
 tracing = "0.1.40"
-tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 
 [features]
 she-said-he-said = []
